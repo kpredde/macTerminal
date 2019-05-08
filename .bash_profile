@@ -15,3 +15,14 @@ highlightExitCode()
     echo -en '\xf0\x9f\x98\x80 '
   fi
 }
+
+
+# or
+
+# highlightExitCode ()  { 
+#   if [ $? -ne 0 ]; then
+#     echo -n '😱 ';
+#   else
+#     echo -n '😀 ';
+#   fi 
+# }
